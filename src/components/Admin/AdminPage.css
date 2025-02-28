@@ -1,0 +1,212 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  #admin {
+    padding: 20px;
+    max-width: 900px;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #0e0e0e;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  h2 {
+    text-align: center;
+    color: #0e0e0e;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: 600;
+  }
+
+
+  
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+  }
+  
+  .admin-table th, .admin-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background: linear-gradient(135deg, #f0f2f5, #bac5c8);
+  }
+  
+  .admin-table th {
+    background-color: #f4f4f9;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.1em;
+  }
+  
+  .admin-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .admin-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .edit-icon, .delete-icon {
+    font-size: 1.2em;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .edit-icon {
+    color: #007bff;
+    transition: color 0.3s;
+  }
+  
+  .edit-icon:hover {
+    color: #0056b3;
+  }
+  
+  .delete-icon {
+    color: #dc3545;
+    transition: color 0.3s;
+  }
+  
+  .delete-icon:hover {
+    color: #a71d2a;
+  }
+  
+  .admin-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .admin-buttons .nav-button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: #000;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .admin-buttons .nav-button:hover {
+    background-color: #9c9c9c;
+    transform: scale(1.05);
+  }
+  #aa1 {
+    position: relative; 
+}
+
+#aa1 .cross6 {
+    position: fixed;
+    top: 20px; 
+    right: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #000000;
+}
+
+/* Existing styles remain unchanged */
+
+/* CRUD Section for Boat Data */
+.crud-section {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.crud-section h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.crud-section input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.crud-section button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.crud-section button:hover {
+  background-color: #000000;
+}
+
+/* Existing styles remain unchanged */
+
+/* Boat List */
+.boat-list1 {
+  margin-top: 40px;
+}
+
+.boat-cards1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.boat-card1 {
+  flex: 1 1 calc(25% - 20px); 
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f4f4f9;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 15px 30px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.boat-card1 h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.boat-card1 p {
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: #666;
+}
+
+.boat-card1 button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.boat-card1 button:hover{
+  background-color: #000000;
+  color: #fff;
+}

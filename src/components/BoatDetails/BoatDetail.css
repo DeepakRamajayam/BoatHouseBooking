@@ -1,0 +1,98 @@
+
+.boat-detail-container {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.boat-detail-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.boat-detail-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+.boat-detail-image:hover {
+    transform: scale(1.2);
+}
+.boat-detail-info {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+.boat-detail-info h1 {
+    font-size: 45px;
+    color:#0260b2;
+}
+.boat-detail-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d32f2f;
+}
+
+.book-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #00796b;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #000000;
+    transform: scale(1.30);
+}
+
+.boat-detail-extra {
+    margin-top: 40px;
+}
+
+.boat-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.boat-extra-image {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.boat-extra-image:hover {
+    transform: scale(1.3);
+}
+
+.boat-extra-details {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.boat-extra-details li {
+    margin: 5px 0;
+}
+
+.cross8{
+    right: 20px;
+    margin-left:1220px;
+    margin-right: -215px;
+    margin-top:10px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #000000;
+  }
